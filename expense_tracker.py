@@ -64,30 +64,30 @@ def filter_expenses_by_date(start_date, end_date):
     return cursor.fetchall()
 
 
-# Test Cases for each function created
-# add_expense('2023-01-15', 'Groceries', 50.0)
-# add_expense('2023-01-18', 'Date night', 30.0)
-# add_expense('2023-01-18', 'Transport', 50.0)
-# add_expense('2023-01-20', 'Phone Bills', 80.0)
+#Test Cases for each function created
+add_expense('2023-01-15', 'Groceries', 50.0)
+add_expense('2023-01-18', 'Date night', 30.0)
+add_expense('2023-01-18', 'Transport', 50.0)
+add_expense('2023-01-20', 'Phone Bills', 80.0)"
 
-# #Adding more test cases
-# add_expense('2023-01-22', 'Dining Out', 30.0)
-# add_expense('2023-01-24', 'Groceries', 50.0)
-# add_expense('2023-01-26', 'Lunch', 30.0)
-# add_expense('2023-01-29', 'Toiletries', 20.0)
+#Adding more test cases
+add_expense('2023-01-22', 'Dining Out', 30.0)
+add_expense('2023-01-24', 'Groceries', 50.0)
+add_expense('2023-01-26', 'Lunch', 30.0)
+add_expense('2023-01-29', 'Toiletries', 20.0)
 
-# print("All Expenses:")
-# pprint.pprint(get_all_expenses())
+print("All Expenses:")
+pprint.pprint(get_all_expenses())
 
-# update_expense(1, 60.0)
+update_expense(1, 60.0)
 
-# print("\nExpenses after update:")
-# pprint.pprint(get_all_expenses())
+print("\nExpenses after update:")
+pprint.pprint(get_all_expenses())
 
-# delete_expense(3)
+delete_expense(3)
 
-# print("\nExpenses after delete:")
-# print(get_all_expenses())
+print("\nExpenses after delete:")
+print(get_all_expenses())
 
 # Stretch Goal: Using Date Filtering
 start_date = '2023-01-01'
