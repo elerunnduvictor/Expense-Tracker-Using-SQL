@@ -4,7 +4,7 @@ I created an Expense Tracker program to improve my software engineering skills, 
 
 The Expense Tracker helps users keep track of their daily expenses. It works with a SQL database to store and retrieve expense data efficiently. The main focus is to build a simple tool that shows basic operations like adding, updating, and deleting expenses while using a strong database system.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=7ONlb1ZvDUQ)
 
 # Relational Database
 
