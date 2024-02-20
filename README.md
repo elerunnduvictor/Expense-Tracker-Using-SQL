@@ -20,8 +20,6 @@ The programming language used is Python, leveraging the sqlite3 library for data
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [SQlite Documentation](https://www.sqlite.org/docs.html)
 - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
 - [LinkedIn Learning](https://www.linkedin.com/learning/quick-start-guide-to-sql)
